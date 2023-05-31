@@ -1,0 +1,49 @@
+{
+  "months": {
+     "es": [
+      "enero",
+      "febrero",
+      "marzo",
+      "abril",
+      "mayo",
+      "junio",
+      "julio",
+      "agosto",
+      "septiembre",
+      "octubre",
+      "noviembre",
+      "diciembre"
+    ]
+  },
+  "days": {
+    "es": {
+      "monday": ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"
+      ]
+    }
+  },
+  "labels": {
+    "es": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "language": "Idioma",
+      "english": "Inglés",
+      "spanish": "Español",
+      "french": "Francés",
+      "german": "Alemán",
+      "italian": "Italiano",
+      "selectedDays": "Días Seleccionados",
+      "totalHours": "Total de Horas",
+      "sunday": "Domingo",
+      "monday": "Lunes",
+      "tuesday": "Martes",
+      "wednesday": "Miércoles",
+      "thursday": "Jueves",
+      "friday": "Viernes",
+      "saturday": "Sábado",
+      "firstDayOfWeek": "Primer día de la Semana",
+      "hours": "horas"
+    }
+  }
+}
+    
+
