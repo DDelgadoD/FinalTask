@@ -1,10 +1,10 @@
 <template>
     <div class="header">
-        <button class="btn btn-primary mr-2 ml-2" @click="goToPreviousMonth">
+        <button class="btn btn-primary btn-previous" @click="goToPreviousMonth">
             {{ translations.labels[this.selectedLanguage].previous }}
         </button>
         <h2>{{ currentMonth }}</h2>
-        <button class="btn btn-primary mr-2 ml-2" @click="goToNextMonth">
+        <button class="btn btn-primary btn-next" @click="goToNextMonth">
             {{ translations.labels[this.selectedLanguage].next }}
         </button>
     </div>
@@ -233,5 +233,13 @@ td {
 .day{
     color:black;
     text-decoration: none;
+}
+
+.btn-previous{
+    margin-right: 10%;
+}
+
+.btn-next{
+    margin-left: 10%;
 }
 </style>
