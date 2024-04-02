@@ -10,5 +10,6 @@ dist: jammy
 deploy:
   provider: pages
   local_dir: build
+  github_token: $github_token
   on:
     branch: master
